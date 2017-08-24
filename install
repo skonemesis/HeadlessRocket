@@ -1,4 +1,8 @@
-Installing.
+// Found this on the Exile Mod Forum
+// All credit to HeadlessRocket - http://www.exilemod.com/profile/36584-headlessrocket/
+// http://www.exilemod.com/topic/11191-new-a3_dms-static-mission-defent-mission-system/
+
+Installing
 1.  Copy Military_Raid.sqf into a3_dms.pbo missions/static
 2.  Copy Military_Raid_buildings.sqf into a3_dms.pbo objects/static
 3.  Extract  map_configs/altis_config.sqf
