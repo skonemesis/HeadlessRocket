@@ -1,0 +1,13 @@
+Installing.
+1.  Copy Military_Raid.sqf into a3_dms.pbo missions/static
+2.  Copy Military_Raid_buildings.sqf into a3_dms.pbo objects/static
+3.  Extract  map_configs/altis_config.sqf
+4. Find
+    DMS_StaticMissionTypes append [["saltflats",1],["slums",1]];
+    Change to (or add extra)
+    DMS_StaticMissionTypes append [["saltflats",1],["slums",1],["Military_Raid",1]];
+5. Find
+    DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects"];
+    Change to (or add extra)
+    DMS_BasesToImportOnServerStart append ["saltflatsbase","slums_objects","Military_Raid_buildings"];
+6. Repack altis_config.sqf into PBO
